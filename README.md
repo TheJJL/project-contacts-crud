@@ -30,5 +30,7 @@ You will also see any lint errors in the console.
 
 ## Learn More
 To learn React, check out the [React documentation](https://reactjs.org/).
+
 To learn Nodejs, chek out the [Nodejs documentation](https://nodejs.org/es/docs/).
+
 To learn MYSQL, chek out the [Mysql documentation](https://dev.mysql.com/doc/).
