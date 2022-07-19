@@ -1,34 +1,32 @@
-# CRUD PROJECT CONTACTOS
+# CRUD PROJECT CONTACTS
 
-En este proyecto se crea una aplicación CRUD para gestionar una Libreta de Contactos conectada a una base de datos en Mysql.
-El frontend se realizó con React.js y Bootstrap. Por el lado del backend se construyó con con Nodejs, Express, Sequelize, Corrs.
+In this project a CRUD application is created to manage a Contact Book connected to a Mysql database.
+The frontend was made with React.js and Bootstrap. On the backend side it was built with Nodejs, Express, Sequelize, Corrs.
 
-En el directorio del proyecto se podrá encontrar dos carpetas:
-- crud-nodejs-mysql
-- crud-react
+In the project directory you will find two folders:
+- crud-nodejs-mysql (for backend)
+- crud-react (for frontend)
 
-La primera, muestra la construcción de API REST que gestiona una unica base de datos llamada "contacts" y tiene los atributos:
-- ID
-- Name
-- Surnma
-- Email
-- Phone
-- Cellphone
-- Adress
-- Age
+La base datos utlizada "contact" tiene los siguientes atributos:
+- **ID** : for id contact
+- **Name** : for name.
+- **Surname**: for lastname.
+- **Email**: for email.
+- **Phone**: for home telephone number.
+- **Cellphone**: for mobile number.
+- **Address**: for home address.
+- **Age**: for age.
 
-Para ejecutar el servidor descargue los archivos y en la carpeta del archivo por medio de CLI ponga:
+To run the server, download the files and in the file folder run:
 ### `node server.js`
+By default it is configured to run on **PORT:8080**
 
-Por defecto está configurado para correr en el PUERTO 8080.
-
-En el caso del cliente, descargar los archivos y ejecute la aplicación en modo de desarrollo
-<br />
+In the client case, download the files and run the application in development mode <br/>
 ### `npm start`
+Open [http://localhost:8081](http://localhost:8081) to view it in the browser.
 
-Luego habra [http://localhost:8081](http://localhost:8081) para verlo en el navegador.
-
-La pagina se recarga si realiza cambios.
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
 
 
