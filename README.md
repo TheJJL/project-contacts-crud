@@ -1,4 +1,4 @@
-# CRUD PROJECT CONTACTS
+# CRUD Project Contacts
 
 In this project a CRUD application is created to manage a Contact Book connected to a Mysql database.
 The frontend was made with React.js and Bootstrap. On the backend side it was built with Nodejs, Express, Sequelize, Corrs.
